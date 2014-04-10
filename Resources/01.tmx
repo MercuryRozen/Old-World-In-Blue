@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="New_Town_Ex" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="New_Town_Ex.png" trans="ff00ff" width="544" height="416"/>
+ </tileset>
+ <tileset firstgid="193" name="NewY" tilewidth="32" tileheight="32">
+  <image source="NewY.png" trans="ff00ff" width="256" height="1600"/>
+ </tileset>
+ <tileset firstgid="593" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png" trans="ff00ff" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Blockage" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="595" name="meta_tiles-02" tilewidth="32" tileheight="32">
+  <image source="meta_tiles-02.png" trans="ff00ff" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Wade" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztVkEOxCAI9HvuD/T/D9leTAgLShsRupkDGdsaCzMwbS2lfK6oL8d2Rf8DjOYRekCPzBjNI/SAHpkxmkfoAT0yYzSP0AN6ZMZoHqEH9MiM0TxCD+iRGaN5hB7QIzNG87gb+T2+lq6te56ctVrznJvy3sr2UB3b5J60x7qv31j38ttfs5jVuKp/tR7Xu+bDI0+uP/cUyu+u+dgR2nx1Fp6+teqpFd/amSf9kL5bejabMzpvO3U9OR88Vn5hjafzYj3f4j20HikfOvcefjWb/7GWekzLX+tB7vtefiV5o7WXRj48PP3pznxY+pnyzEOqzcuvLLly/5/9H2g1eX5HTvn7ye/HmzGaR+gBPTLjF8LnGSU=
+  </data>
+ </layer>
+ <layer name="Layer01" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz1OPnWEYhtGpbdu2bdsHtW3bxtS23U7tdvrTupLOUZMvTaY7ex/0uZKVvMl7cj9ZWVEURVEURVEURVEURVEURVEURVEU/c8VoCCFKEwRilKM4pSgJKUoTRnKUo7yGdibVAUqUonKVKEq1ahODWpSi9rUoS71qJ/+uYk1oCGNaEwTmtKM5rSgJa1oTRva0o72GdibVAc60onOdKEr3ehOD3rSi970oS/96J/+uYkNYCCDGMwQhjKM4YxgJKMYzRjGMo7xGdib1AQmMonJTPnjfyrTmM4MZjKL2cxJ28q/N5d5zGcBC1nEYpawlGUsZwUrWcVq1mRgb1JrWcd6NrCRTWxmC1vZxnZ2sJNd7GZP+ucmtpd97OcABznEYY5wlGMc5wTZnOQUpzOwN6kznOUc57nARS5xmStc5RrXucFNbnE76/ct2f8gVd3hLve4zwMe8ojHPOEpz3jOC16Sw6u8d37lpPCO17zhLe94zwc+8onPfOEr3/jOD3L5mffOr9wU3hFlrl8Dcmbx
+  </data>
+ </layer>
+ <objectgroup name="Object-Player" width="50" height="50">
+  <object name="PlayerShowUpPoint" x="353" y="1441" width="31" height="31"/>
+  <object name="EnemyPosition2" x="1056" y="1217" width="32" height="29">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemyPosition5" x="1057" y="1281" width="31" height="30">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemyPosition8" x="1088" y="1312" width="31" height="30">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemyPosition6" x="1154" y="1279" width="31" height="33">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemyPosition7" x="994" y="1312" width="31" height="31">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemyPosition2" x="991" y="1183" width="32" height="32">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemyPosition3" x="993" y="1249" width="32" height="33">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemyPosition4" x="1024" y="1281" width="32" height="32">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemyPosition1" x="991" y="1183" width="32" height="32">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Layer03" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1DkOgDAQQ9GE+x+VrWAr2EwfpIEmLv6T3EzlYuSUAAAAAAAAAAAAALhoc0qd0iuDMubyzUmp36TMyqKsyvZyc1LqtyuHcirX07cp35x87ef+X1Hu/xXl/l9/OP1YdGOju1ZLdGOju1ZLdGOdOgPwdwPocmvR
+  </data>
+ </layer>
+ <layer name="Layer02" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJADAMBDFPmXj/SfxDBFxEguuvCgAAAAAAAAD4zUk39fYIADw0Jb0BBg==
+  </data>
+ </layer>
+ <layer name="Foreground01" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzzENAAAIwDCCE/yb5MABH6RNJmARAAAAAAAAAMBG5XTdlw8AaBjMAI0=
+  </data>
+ </layer>
+ <layer name="Blockage01" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1VEKgCAQRVFxh7X/xfQRgYhl6jwb6R6YnyzHR2YhAAAAAAAAAAAAAGi1RT+1Qo43/bzl6O3tIYdFb+sc+XVFf8W+qtnjWaXnRvtfc3yVw5Jljtret3r/pf4zc6T3jlKdu3dzp+O9a1OfebUcrXOsmMNq3er/x9P3oSx1jln1RwfNaWYm
+  </data>
+ </layer>
+ <layer name="CanCross01" width="50" height="50" opacity="0.6">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJACAMAMHgiu6/S7C1EpGY4g6+/wgAAAAAAAAAAKgxx++De+t9r4vTl27f8FoCjngC/g==
+  </data>
+ </layer>
+</map>
